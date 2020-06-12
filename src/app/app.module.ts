@@ -7,6 +7,7 @@ import { Comp1Component } from './comp1/comp1.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NewComponent } from './new/new.component';
 import { KomboComponent } from './kombo/kombo.component';
+import { BaniComponent } from './bani/bani.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { KomboComponent } from './kombo/kombo.component';
     Comp1Component,
     DashboardComponent,
     NewComponent,
-    KomboComponent
+    KomboComponent,
+    BaniComponent
   ],
   imports: [
     BrowserModule,
